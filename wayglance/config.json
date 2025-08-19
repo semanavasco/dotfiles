@@ -1,0 +1,35 @@
+{
+  "modules": [
+    { "name": "date", "position": "middle-center" },
+    { "name": "player", "position": "middle-center" },
+    { "name": "system", "position": "bottom-center" }
+  ],
+  "date": {
+    "time_format": "%H:%M",
+    "date_format": "%A, %d %B %Y"
+  },
+  "player": {
+    "player": "spotify",
+    "nerd-font": true,
+    "buttons": {
+      "previous": { "icon": "" },
+      "next": { "icon": "" },
+      "play": { "icon": "" },
+      "pause": { "icon": "" }
+    }
+  },
+  "system": {
+    "h-align": "center",
+    "v-align": "center",
+    "orientation": "horizontal",
+    "spacing": 10,
+    "update-interval": 1000,
+    "cpu": { "active": true, "format": "CPU: {usage}%" },
+    "ram": { "active": true, "format": "RAM: {usage}%" },
+    "net": {
+      "active": true,
+      "format": "NET:  {download} /  {upload}",
+      "interface": "wlan0"
+    }
+  }
+}

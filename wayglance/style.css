@@ -1,0 +1,59 @@
+#wayglance {
+  background: none;
+}
+
+.date-labels {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+}
+#date-time-label {
+  font-size: 120pt;
+  font-weight: bold;
+  color: #cba6f7;
+}
+#date-date-label {
+  font-size: 30pt;
+  font-weight: normal;
+  color: white;
+}
+
+#module-player {
+  margin-top: 50pt;
+}
+.player-labels {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+}
+.player-labels {
+  font-size: 15pt;
+}
+#player-track-label {
+  margin-bottom: 15pt;
+}
+.player-buttons {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+  background-color: transparent;
+}
+.player-buttons:focus {
+  outline: none;
+}
+.player-buttons:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#player-progress-bar {
+  min-height: 6px;
+  min-width: 400px;
+}
+#player-progress-bar progress {
+  background-color: #cba6f7;
+  border-radius: 4px;
+}
+#player-progress-bar trough {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+}
+
+#module-system {
+  margin-bottom: 15pt;
+}
+.system-labels {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+}
