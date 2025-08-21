@@ -1,11 +1,12 @@
-author = "dotfm"
 name = "dotfiles"
+author = "dotfm"
 
 [files]
-wayglance = "/home/svasco/.config/wayglance"
-waybar = "/home/svasco/.config/waybar"
-hypr = "/home/svasco/.config/hypr"
-nvim = "/home/svasco/.config/nvim"
-rofi = "/home/svasco/.config/rofi"
+wezterm = "/home/svasco/.config/wezterm"
 dunst = "/home/svasco/.config/dunst"
+rofi = "/home/svasco/.config/rofi"
+nvim = "/home/svasco/.config/nvim"
+hypr = "/home/svasco/.config/hypr"
+waybar = "/home/svasco/.config/waybar"
+wayglance = "/home/svasco/.config/wayglance"
 
