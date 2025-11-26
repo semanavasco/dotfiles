@@ -10,3 +10,5 @@ hypr = "/home/svasco/.config/hypr"
 nvim = "/home/svasco/.config/nvim"
 wezterm = "/home/svasco/.config/wezterm"
 waybar = "/home/svasco/.config/waybar"
+
+[packages]
