@@ -1,0 +1,12 @@
+name = "dotfiles"
+author = "dotfm"
+
+[files]
+".zshrc" = "/home/svasco/.zshrc"
+rofi = "/home/svasco/.config/rofi"
+wayglance = "/home/svasco/.config/wayglance"
+dunst = "/home/svasco/.config/dunst"
+hypr = "/home/svasco/.config/hypr"
+nvim = "/home/svasco/.config/nvim"
+wezterm = "/home/svasco/.config/wezterm"
+waybar = "/home/svasco/.config/waybar"

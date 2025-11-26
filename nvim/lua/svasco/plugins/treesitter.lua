@@ -10,7 +10,6 @@ return {
 			sync_install = false,
 			ignore_install = {},
 			auto_install = true,
-			highlight = { enable = true, disable = { "latex" } },
 			indent = { enable = true },
 
 			-- ensure these language servers are installed
@@ -27,6 +26,7 @@ return {
 				"javascript",
 				"typescript",
 				"tsx",
+				"rust",
 			},
 
 			incremental_selection = {

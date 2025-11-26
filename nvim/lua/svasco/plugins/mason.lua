@@ -20,9 +20,9 @@ return {
 				"pyright",
 				"clangd",
 				"rust_analyzer",
-				"texlab",
 				"ts_ls",
 				"eslint",
+				"tinymist",
 			},
 		})
 
