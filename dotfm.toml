@@ -2,13 +2,22 @@ name = "dotfiles"
 author = "dotfm"
 
 [files]
-".zshrc" = "/home/svasco/.zshrc"
-rofi = "/home/svasco/.config/rofi"
-wayglance = "/home/svasco/.config/wayglance"
-dunst = "/home/svasco/.config/dunst"
-hypr = "/home/svasco/.config/hypr"
 nvim = "/home/svasco/.config/nvim"
+wayglance = "/home/svasco/.config/wayglance"
+rofi = "/home/svasco/.config/rofi"
 wezterm = "/home/svasco/.config/wezterm"
+hypr = "/home/svasco/.config/hypr"
+".zshrc" = "/home/svasco/.zshrc"
 waybar = "/home/svasco/.config/waybar"
+dunst = "/home/svasco/.config/dunst"
 
-[packages]
+[packages.pacman]
+install_cmd = "sudo pacman -S"
+dependencies = ["base-devel", "git", "unzip", "nvidia-utils", "nvidia-dkms", "nvidia-settings", "egl-wayland", "libva", "mesa-utils", "libva-nvidia-driver", "xdg-desktop-portal-hyprland", "xdg-desktop-portal-gtk", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-nerd-fonts-symbols", "ttf-font-awesome", "hyprlock", "hyprpicker", "waybar", "cliphist", "neovim", "ripgrep", "thunar", "lazygit", "rofi-wayland", "thunderbird", "spotify-launcher", "imv", "mpv", "krita", "bluez", "bluez-utils", "blueman", "openrgb", "gvfs", "github-cli", "jq", "gnome-keyring", "polkit-gnome", "brightnessctl", "nwg-look", "zsh", "gtkmm-4.0", "gtk4-layer-shell", "vcpkg"]
+optional = []
+
+
+[packages.yay]
+install_cmd = "yay -S"
+dependencies = ["gnu-free-fonts", "ttf-joypixels", "noto-fonts-cjk", "zen-browser-bin", "wezterm-git", "vesktop", "visual-studio-code-bin", "catppuccin-gtk-theme-macchiato", "asdf-vm"]
+optional = []
