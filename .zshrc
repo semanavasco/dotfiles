@@ -134,3 +134,5 @@ classes() {
 }
 
 alias lg=lazygit
+alias cr="cargo run"
+alias ct="cargo test"
