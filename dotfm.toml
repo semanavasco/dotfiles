@@ -2,22 +2,22 @@ name = "dotfiles"
 author = "dotfm"
 
 [files]
-nvim = "/home/svasco/.config/nvim"
+dunst = "/home/svasco/.config/dunst"
 wayglance = "/home/svasco/.config/wayglance"
 rofi = "/home/svasco/.config/rofi"
-wezterm = "/home/svasco/.config/wezterm"
-hypr = "/home/svasco/.config/hypr"
-".zshrc" = "/home/svasco/.zshrc"
 waybar = "/home/svasco/.config/waybar"
-dunst = "/home/svasco/.config/dunst"
-
-[packages.pacman]
-install_cmd = "sudo pacman -S"
-dependencies = ["base-devel", "git", "unzip", "nvidia-utils", "nvidia-dkms", "nvidia-settings", "egl-wayland", "libva", "mesa-utils", "libva-nvidia-driver", "xdg-desktop-portal-hyprland", "xdg-desktop-portal-gtk", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-nerd-fonts-symbols", "ttf-font-awesome", "hyprlock", "hyprpicker", "waybar", "cliphist", "neovim", "ripgrep", "thunar", "lazygit", "rofi-wayland", "thunderbird", "spotify-launcher", "imv", "mpv", "krita", "bluez", "bluez-utils", "blueman", "openrgb", "gvfs", "github-cli", "jq", "gnome-keyring", "polkit-gnome", "brightnessctl", "nwg-look", "zsh", "gtkmm-4.0", "gtk4-layer-shell", "vcpkg", "nodejs", "nvm", "ranger"]
-optional = []
-
+nvim = "/home/svasco/.config/nvim"
+".zshrc" = "/home/svasco/.zshrc"
+hypr = "/home/svasco/.config/hypr"
+wezterm = "/home/svasco/.config/wezterm"
+zathura = "/home/svasco/.config/zathura"
 
 [packages.yay]
 install_cmd = "yay -S"
-dependencies = ["gnu-free-fonts", "ttf-joypixels", "noto-fonts-cjk", "zen-browser-bin", "wezterm-git", "vesktop", "visual-studio-code-bin", "catppuccin-gtk-theme-macchiato"]
+dependencies = ["gnu-free-fonts", "ttf-joypixels", "noto-fonts-cjk", "zen-browser-bin", "wezterm-git", "vesktop", "visual-studio-code-bin", "catppuccin-gtk-theme-macchiato", "grimblast-git"]
+optional = []
+
+[packages.pacman]
+install_cmd = "sudo pacman -S"
+dependencies = ["base-devel", "git", "unzip", "nvidia-utils", "nvidia-dkms", "nvidia-settings", "egl-wayland", "libva", "mesa-utils", "libva-nvidia-driver", "xdg-desktop-portal-hyprland", "xdg-desktop-portal-gtk", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-nerd-fonts-symbols", "ttf-font-awesome", "hyprlock", "hyprpicker", "waybar", "cliphist", "neovim", "ripgrep", "thunar", "lazygit", "rofi-wayland", "thunderbird", "spotify-launcher", "imv", "mpv", "krita", "bluez", "bluez-utils", "blueman", "openrgb", "gvfs", "github-cli", "jq", "gnome-keyring", "polkit-gnome", "brightnessctl", "nwg-look", "zsh", "gtkmm-4.0", "gtk4-layer-shell", "vcpkg", "nodejs", "nvm", "ranger", "zathura", "zathura-pdf-mupdf", "typst"]
 optional = []

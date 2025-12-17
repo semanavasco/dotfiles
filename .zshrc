@@ -119,6 +119,8 @@ pyenv() {
 	source .venv/bin/activate
 }
 
+. "$HOME/.cargo/env"
+
 alias lg=lazygit
 alias cr="cargo run"
 alias ct="cargo test"

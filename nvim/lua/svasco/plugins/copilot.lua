@@ -3,7 +3,7 @@ return {
 	config = function()
 		vim.g.copilot_filetypes = {
 			["*"] = false,
-			-- python = true,
+			python = true,
 			javascript = true,
 			typescript = true,
 			json = true,
