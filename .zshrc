@@ -105,19 +105,9 @@ export VISUAL='nvim'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# ASDF setup
-. "$HOME/.asdf/plugins/java/set-java-home.zsh"
-
-# Define a function to ensure JAVA_HOME/bin is in PATH after JAVA_HOME is set
-# by the precmd hook. We also add this function to the precmd hook.
-_asdf_java_path_helper() {
-  # Only add to PATH if JAVA_HOME is set and its bin directory is not already in PATH
-  if [[ -n "$JAVA_HOME" && ":$PATH:" != *":$JAVA_HOME/bin:"* ]]; then
-    export PATH="$JAVA_HOME/bin:$PATH"
-  fi
+nvm() {
+	. /usr/share/nvm/init-nvm.sh
 }
-# Add this new function to the precmd hook, so it runs after the JAVA_HOME update.
-add-zsh-hook precmd _asdf_java_path_helper
 
 pyenv() {
 	if [ ! -d ".venv/" ]; then
@@ -127,10 +117,6 @@ pyenv() {
 
 	echo "venv activated"
 	source .venv/bin/activate
-}
-
-classes() {
-	cd ~/Classes/A3/
 }
 
 alias lg=lazygit

@@ -43,15 +43,6 @@ echo "Setting up Zsh and Oh My Zsh..."
 sudo pacman -S --needed zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
-# --- Programming Language Version Managers ---
-echo "Setting up asdf-vm and installing language runtimes..."
-paru -S asdf-vm
-asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
-asdf install nodejs lts
-asdf plugin add java https://github.com/halcyon/asdf-java.git
-asdf install java adoptopenjdk-24.0.1+9
-sudo pacman -S --needed gtkmm-4.0 gtk4-layer-shell vcpkg
-
 # --- Cleanup / Removals ---
 echo "Removing unwanted default packages..."
 sudo pacman -Rns kitty dolphin wofi
