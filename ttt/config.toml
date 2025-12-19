@@ -1,0 +1,4 @@
+[defaults]
+text = "french"
+mode = "clock"
+duration = 30

@@ -2,22 +2,23 @@ name = "dotfiles"
 author = "dotfm"
 
 [files]
-dunst = "$XDG_CONFIG_HOME/dunst"
-wayglance = "$XDG_CONFIG_HOME/wayglance"
-rofi = "$XDG_CONFIG_HOME/rofi"
-waybar = "$XDG_CONFIG_HOME/waybar"
+ttt = "$XDG_CONFIG_HOME/ttt"
 nvim = "$XDG_CONFIG_HOME/nvim"
-".zshrc" = "$HOME/.zshrc"
-hypr = "$XDG_CONFIG_HOME/hypr"
-wezterm = "$XDG_CONFIG_HOME/wezterm"
+wayglance = "$XDG_CONFIG_HOME/wayglance"
 zathura = "$XDG_CONFIG_HOME/zathura"
-
-[packages.yay]
-install_cmd = "yay -S"
-dependencies = ["gnu-free-fonts", "ttf-joypixels", "noto-fonts-cjk", "zen-browser-bin", "wezterm-git", "vesktop", "visual-studio-code-bin", "catppuccin-gtk-theme-macchiato", "grimblast-git"]
-optional = []
+waybar = "$XDG_CONFIG_HOME/waybar"
+".zshrc" = "$HOME/.zshrc"
+dunst = "$XDG_CONFIG_HOME/dunst"
+hypr = "$XDG_CONFIG_HOME/hypr"
+rofi = "$XDG_CONFIG_HOME/rofi"
+wezterm = "$XDG_CONFIG_HOME/wezterm"
 
 [packages.pacman]
 install_cmd = "sudo pacman -S"
 dependencies = ["base-devel", "git", "unzip", "nvidia-utils", "nvidia-dkms", "nvidia-settings", "egl-wayland", "libva", "mesa-utils", "libva-nvidia-driver", "xdg-desktop-portal-hyprland", "xdg-desktop-portal-gtk", "ttf-jetbrains-mono", "ttf-jetbrains-mono-nerd", "ttf-nerd-fonts-symbols", "ttf-font-awesome", "hyprlock", "hyprpicker", "waybar", "cliphist", "neovim", "ripgrep", "thunar", "lazygit", "rofi-wayland", "thunderbird", "spotify-launcher", "imv", "mpv", "krita", "bluez", "bluez-utils", "blueman", "openrgb", "gvfs", "github-cli", "jq", "gnome-keyring", "polkit-gnome", "brightnessctl", "nwg-look", "zsh", "gtkmm-4.0", "gtk4-layer-shell", "vcpkg", "nodejs", "nvm", "ranger", "zathura", "zathura-pdf-mupdf", "typst", "ripgrep"]
+optional = []
+
+[packages.yay]
+install_cmd = "yay -S"
+dependencies = ["gnu-free-fonts", "ttf-joypixels", "noto-fonts-cjk", "zen-browser-bin", "wezterm-git", "vesktop", "visual-studio-code-bin", "catppuccin-gtk-theme-macchiato", "grimblast-git"]
 optional = []
